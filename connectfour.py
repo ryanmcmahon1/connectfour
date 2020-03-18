@@ -134,7 +134,7 @@ def play_match():
         print_score(player1)
         print_score(player2)
         
-        print("Play another round? (Y/N)")
+        print("Play more rounds? (Y/N)")
         response = str(input())
         if (response == "Y"):
             play_game(player1, player2)
